@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="bg" prefHeight="600.0" prefWidth="800.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.OpisController">
+   <children>
+      <Button layoutX="476.0" layoutY="494.0" mnemonicParsing="false" onAction="#Powrot" prefHeight="63.0" prefWidth="292.0" text="Powrót do menu" />
+      <Label layoutX="18.0" layoutY="32.0" prefHeight="103.0" prefWidth="385.0" text="Witaj w mojej pierwszej grze">
+         <font>
+            <Font size="29.0" />
+         </font></Label>
+      <Label layoutX="120.0" layoutY="114.0" text="...pod tytułem PONG">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="195.0" text="Steruj za pomocą myszki">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="238.0" text="i nie daj sobie trafić gola">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="300.0" text="POWODZENIA">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

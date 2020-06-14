@@ -1,0 +1,7 @@
+.button{
+    -fx-background-color: linear-gradient(gray, lightgray);
+    -fx-font-size: 29px;
+}
+#bg{
+    -fx-background-color: linear-gradient(gray , cyan);
+}

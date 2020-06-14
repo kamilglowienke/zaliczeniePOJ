@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="bg" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button layoutX="306.0" layoutY="200.0" mnemonicParsing="false" onAction="#poziomyTrudnosci" prefHeight="88.0" prefWidth="188.0" text="Graj" />
+      <Button layoutX="306.0" layoutY="320.0" mnemonicParsing="false" onAction="#Opis" prefHeight="25.0" prefWidth="188.0" text="Opis gry" />
+      <Button layoutX="341.0" layoutY="411.0" mnemonicParsing="false" onAction="#wyjdzZGry" prefHeight="15.0" prefWidth="119.0" text="Wyjdź" />
+      <Pane prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="176.0" layoutY="41.0" text="Zwykły Pong" textAlignment="CENTER">
+         <font>
+            <Font size="80.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

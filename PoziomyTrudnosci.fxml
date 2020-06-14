@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="bg" prefHeight="600.0" prefWidth="800.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PoziomyController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+      <Button layoutX="289.0" layoutY="151.0" mnemonicParsing="false" onAction="#GrajLatwy" prefHeight="79.0" prefWidth="223.0" text="Łatwy">
+         <font>
+            <Font size="32.0" />
+         </font></Button>
+      <Button layoutX="289.0" layoutY="275.0" mnemonicParsing="false" onAction="#GrajTrudny" prefHeight="79.0" prefWidth="223.0" text="Trudny">
+         <font>
+            <Font size="32.0" />
+         </font></Button>
+      <Button layoutX="244.0" layoutY="407.0" mnemonicParsing="false" onAction="#Powrot1" prefHeight="63.0" prefWidth="313.0" text="Powrót do menu">
+         <font>
+            <Font size="11.0" />
+         </font></Button>
+      <Label layoutX="232.0" layoutY="57.0" prefHeight="43.0" prefWidth="337.0" text="Wybierz poziom trudności">
+         <font>
+            <Font size="29.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
